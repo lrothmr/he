@@ -24,13 +24,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/setup-node@v2.1.5
         
       - uses: actions/checkout@v2
         with:
               repository: 'hexojs/hexo-theme-unit-test'
               
       # Runs a single command using the runners shell
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.5
+    # Set always-auth in npmrc
+              
       - name:  Make dirs for themes
         run: mkdir themes
       # Runs a set of commands using the runners shell
