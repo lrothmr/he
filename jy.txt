@@ -1,2 +1,0 @@
-vmess://ws+tls:013f6efb-9fa4-4e86-870c-ef7c232c9aa6-0@v1.il1.fun:443/?host=v1.il1.fun&path=/kaguvws?ed%3D2048&tlsServerName=v1.il1.fun#Vultr
-vmess://ws+tls:90245a3e-4ad1-4e4e-a7a9-83745716c5d1-0@n.il1.fun:443/?host=n.il1.fun&path=/ahvbvws?ed%3D2048&tlsServerName=n.il1.fun#自建_微软云
